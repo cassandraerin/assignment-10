@@ -1,0 +1,46 @@
+body {
+	font-family: Calibri, sans-serif;
+  background: linear-gradient(to right, snow, cadetblue);
+	border: 10px solid #fff;
+}
+
+h1 {
+  font-family: Comic Sans, sans-serif;
+	text-align: center;
+}
+button {
+  width: 100px;
+  color: white;
+  background: cadetblue;
+  padding: 5px;
+  margin: 4px;
+  font-size: 12px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+article {
+	width: 50%;
+	margin: auto;
+ /* width and margin */
+}
+p {
+	text-align: center;
+}
+img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* for things that are text, you can text-align ... for other things, if block, margin: auto; if not block, then either wrap in a div, or change to block */
+
+@media (max-width: 700px) {
+img {margin: none;
+	width:50%;
+min-width:220px;;
+}
+body {
+	border: none;
+}
+}
